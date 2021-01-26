@@ -1,22 +1,46 @@
 // 1. Set the variable `givenName` to the string "Addison".
+let givenName = 'Addison';
+console.log('Addison');
 
 // 2. Set candies equal to 20, people to 6, and leftover equal
 // to the remainder of dividing 20 by 6.
+let candies = 20;
+let people = 6;
+let leftover = 20 % 6;
+console.log('leftover');
+
 
 // 3. Create a function called greeting that returns "Hello, <name>!",
 // where <name> is the name given as an argument to the function.
+function greeting(name) {
+    return "Hello, " + name  + "!"
+}
 
 // 4. Create a function called isOdd that, given a number, will
 // return true if it is odd and false if it is not. An odd number is a
 // number which, when divided by 2, has a remainder of 1 or -1.
+function isOdd(num) {
+   if (num % 2 === 1) || (num % 2 === -1);
+   else false
+   console.log('num')
+}
 
 // 5. Create a function called isEven that, given a number, will
 // return true if it is even and false if it is not. An even number is a
 // number which, when divided by 2, has a remainder of 0.
+function isEven(num) {
+    if (num % 2 === 0);
+    return false
+}
 
 // 6. Create a function called fahrenheitToCelsius that takes a
 // Fahrenheit temperature as an argument and returns the
 // temperature in Celsius.
+function fahrenheitToCelsius(ftemp) {
+    let Celsius = (ftemp - 32) * (5/9);
+    return ctemp;
+
+}
 
 // 7. Create a function called celsiusToFahrenheit that takes a
 // Celsius temperature as an argument and returns the
